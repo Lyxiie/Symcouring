@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ic_background"
+    tools:context=".GalleryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_layout_gallery">
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:columnWidth="@dimen/widthScreen"
+        android:horizontalSpacing="@dimen/dimen3"
+        android:verticalSpacing="@dimen/dimen3"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:layout_margin="@dimen/dimen10">
+    </GridView>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/ic_background"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraint_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/dimen30"
+        android:layout_marginTop="@dimen/dimen30"
+        android:layout_marginEnd="@dimen/dimen30"
+        android:layout_marginBottom="@dimen/dimen30"
+        android:background="@drawable/bg_layout">
+
+        <TextView
+            android:id="@+id/text_my_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen20"
+            android:fontFamily="@font/font_style"
+            android:text="My Profile"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen30"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/photo_home"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_marginTop="@dimen/dimen20"
+            android:layout_marginBottom="@dimen/dimen20"
+            android:translationZ="2dp"
+            app:civ_border_color="#99FFFFFF"
+            app:civ_border_width="6dp"
+            app:civ_shadow_radius="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_my_profile" />
+
+        <TextView
+            android:id="@+id/description_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen10"
+            android:fontFamily="@font/lobster_regular"
+            android:gravity="center"
+            android:padding="@dimen/dimen17"
+            android:text="@string/description_home"
+            android:textSize="@dimen/font17"
+            app:layout_constraintTop_toBottomOf="@id/photo_home" />
+
+        <TextView
+            android:id="@+id/text_my_hobby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dimen10"
+            android:fontFamily="@font/font_style"
+            android:text="My Hobby"
+            android:textColor="@color/black"
+            android:textSize="@dimen/dimen30"
+            app:layout_constraintBottom_toTopOf="@id/relative_layout_home"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <RelativeLayout
+            android:id="@+id/relative_layout_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen20"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:iss_auto_cycle="true"
+                app:iss_corner_radius="70"
+                app:iss_delay="0"
+                app:iss_error_image="@color/teal_700"
+                app:iss_period="3000"
+                app:iss_placeholder="@color/black"
+                app:iss_title_background="@drawable/bg_layout_slider" />
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</RelativeLayout>

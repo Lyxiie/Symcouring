@@ -1,0 +1,11 @@
+<!DOCTYPE resources [
+]>
+<resources>
+    <string name="app_name">Symcouring</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description_home">Halo, Nama saya Muhamad Ridwan. Saya merupakan seorang mahasiswa Teknik Informatika di Universitas Komputer Indonesia. Saya tertarik dengan kegiatan yang berhubungan dengan komputer</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="about_version"><center><b>Symcouring Apps</b> \n\n Versi 1.0.0 \n Copyright 2022</center></string>
+
+</resources>
