@@ -1,27 +1,23 @@
 package com.apps.ridhamad.symcouring;
 
 import android.os.Bundle;
-
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.viewpager.widget.ViewPager;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.google.android.material.tabs.TabLayout;
-
 import java.util.ArrayList;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link DailyActivityFragment#newInstance} factory method to
+ * Use the {@link DailyFragment#newInstance} factory method to
  * create an instance of this fragment.
+ *
  */
-public class DailyActivityFragment extends Fragment {
+public class DailyFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -31,10 +27,8 @@ public class DailyActivityFragment extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
-
-    public DailyActivityFragment() {
-        // Required empty public constructor
-    }
+    RecyclerView recyclerView;
+    ArrayList<datamodel> dataholder;
 
     /**
      * Use this factory method to create a new instance of
@@ -42,16 +36,20 @@ public class DailyActivityFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment DailyActivityFragment.
+     * @return A new instance of fragment DailyFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static DailyActivityFragment newInstance(String param1, String param2) {
-        DailyActivityFragment fragment = new DailyActivityFragment();
+    public static DailyFragment newInstance(String param1, String param2) {
+        DailyFragment fragment = new DailyFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
+    }
+
+    public DailyFragment() {
+        // Required empty public constructor
     }
 
     @Override
@@ -63,23 +61,31 @@ public class DailyActivityFragment extends Fragment {
         }
     }
 
-    private TabLayout tabLayout;
-    private ViewPager viewPager;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_daily_activity, container, false);
+        View view = inflater.inflate(R.layout.fragment_daily, container, false);
+        recyclerView = view.findViewById(R.id.recview);
+        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        dataholder = new ArrayList<>();
 
-        tabLayout = view.findViewById(R.id.tabLayout);
-        viewPager = view.findViewById(R.id.viewpager);
+        datamodel ob1 = new datamodel(R.drawable.foto_profil, "Angular", "aSDmlsdfnl");
+        dataholder.add(ob1);
 
-        tabLayout.setupWithViewPager(viewPager);
+        datamodel ob2 = new datamodel(R.drawable.foto_profil, "asdasd", "alksdjalksd");
+        dataholder.add(ob2);
 
-        VPAdapter vpAdapter = new VPAdapter(getActivity().getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        vpAdapter.addFragment(new DailyFragment(), "Daily Activity");
-        vpAdapter.addFragment(new FriendsFragment(), "My Friends");
-        viewPager.setAdapter(vpAdapter);
+        datamodel ob3 = new datamodel(R.drawable.foto_profil, "fghfghgf", "eriutoieurt");
+        dataholder.add(ob3);
+
+        datamodel ob4 = new datamodel(R.drawable.foto_profil, "hjkhjkhjk", "ncmvbmc");
+        dataholder.add(ob4);
+
+        datamodel ob5 = new datamodel(R.drawable.foto_profil, "trtryrt", "ppoapsdpa");
+        dataholder.add(ob5);
+
+        recyclerView.setAdapter(new myadapter(dataholder));
         return view;
     }
 }

@@ -3,20 +3,25 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardCornerRadius="5dp"
+    app:cardCornerRadius="@dimen/dimen20"
+    android:layout_marginEnd="@dimen/dimen10"
+    android:layout_marginStart="@dimen/dimen10"
+    android:layout_marginTop="@dimen/dimen4"
     android:elevation="4dp"
     app:cardUseCompatPadding="true">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp">
+        android:background="@drawable/bg_layout"
+        android:padding="10dp">
 
 
         <ImageView
             android:id="@+id/img1"
             android:layout_width="80dp"
             android:layout_height="80dp"
+            android:scaleType="centerCrop"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:layout_marginStart="23dp"
