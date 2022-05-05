@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.apps.ridhamad.symcouring" >
+    package="com.apps.ridhamad.symcouring">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -12,7 +12,10 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Symcouring" >
+        android:theme="@style/Theme.Symcouring">
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
         <activity
             android:name=".FullScreenActivity"
             android:exported="true" />
@@ -36,8 +39,8 @@
             android:exported="false"
             android:label="@string/title_activity_maps" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true" >
+            android:name=".SplashScreenActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
