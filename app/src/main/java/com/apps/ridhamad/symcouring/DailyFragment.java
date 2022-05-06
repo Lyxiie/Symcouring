@@ -70,19 +70,19 @@ public class DailyFragment extends Fragment {
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
         dataholder = new ArrayList<>();
 
-        datamodel ob1 = new datamodel(R.drawable.foto_profil, "Angular", "aSDmlsdfnl");
+        datamodel ob1 = new datamodel(R.drawable.day_reading, "My New Book", "Buku ini sungguh luar biasa, dengan alur cerita yang tidak terduga. Saya harap ada seri kedua untuk buku ini.", "6 Mei, 05:15");
         dataholder.add(ob1);
 
-        datamodel ob2 = new datamodel(R.drawable.foto_profil, "asdasd", "alksdjalksd");
+        datamodel ob2 = new datamodel(R.drawable.day_eating2, "Makan Bersama", "Sungguh hal yang tidak terduga bertemu teman lama, semoga pertemanan tidak habis seperti makanan.","6 Mei, 11:42");
         dataholder.add(ob2);
 
-        datamodel ob3 = new datamodel(R.drawable.foto_profil, "fghfghgf", "eriutoieurt");
+        datamodel ob3 = new datamodel(R.drawable.day_walking, "Menikmati Hari", "Terkadang rasa tenang datang dalam sebuah kesederhanaan.","6 Mei, 15:30");
         dataholder.add(ob3);
 
-        datamodel ob4 = new datamodel(R.drawable.foto_profil, "hjkhjkhjk", "ncmvbmc");
+        datamodel ob4 = new datamodel(R.drawable.day_sunset, "Matahari Tenggelam", "Suasana yang sempurna untuk mengakhiri hari.","6 Mei, 17:50");
         dataholder.add(ob4);
 
-        datamodel ob5 = new datamodel(R.drawable.foto_profil, "trtryrt", "ppoapsdpa");
+        datamodel ob5 = new datamodel(R.drawable.day_gaming, "Gaming Time", "Semoga gachaku tak seampas hidupmu.","6 Mei, 20:58");
         dataholder.add(ob5);
 
         recyclerView.setAdapter(new myadapter(dataholder));

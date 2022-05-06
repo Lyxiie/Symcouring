@@ -31,6 +31,7 @@ public class myadapter extends RecyclerView.Adapter<myadapter.myviewholder> {
         holder.img.setImageResource(dataholder.get(position).getImage());
         holder.header.setText(dataholder.get(position).getHeader());
         holder.desc.setText(dataholder.get(position).getDesc());
+        holder.date.setText(dataholder.get(position).getDate());
     }
 
     @Override
@@ -40,13 +41,14 @@ public class myadapter extends RecyclerView.Adapter<myadapter.myviewholder> {
 
     class myviewholder extends RecyclerView.ViewHolder {
         ImageView img;
-        TextView header, desc;
+        TextView header, desc, date;
 
         public myviewholder(@NonNull View itemView) {
             super(itemView);
             img = itemView.findViewById(R.id.img1);
             header = itemView.findViewById(R.id.t1);
             desc = itemView.findViewById(R.id.t2);
+            date = itemView.findViewById(R.id.text_date);
         }
     }
 
