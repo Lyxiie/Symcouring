@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_button_black.xml" value="0.1915" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_button_style.xml" value="0.2345" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_layout.xml" value="0.152" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_layout_gallery.xml" value="0.2345" />
@@ -12,11 +13,16 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_round_left.xml" value="0.2235" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_round_right.xml" value="0.2555" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_slider.xml" value="0.2235" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/btn_gradient_style.xml" value="0.1" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/ic_home.xml" value="0.2235" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/ic_notification.xml" value="0.152" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/ic_profile.xml" value="0.2235" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/indicator_default.xml" value="0.1915" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/indicator_selected.xml" value="0.1915" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/indicator_selector.xml" value="0.1915" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/font/font_style.xml" value="0.23001282599401454" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/activity_full_screen.xml" value="0.264" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/activity_intro.xml" value="0.16" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/activity_main_layout.xml" value="0.19990933816863102" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/activity_maps.xml" value="0.20521590423257802" />
@@ -41,6 +47,7 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/fragment_thrid_screen.xml" value="0.1936725096194955" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/fragment_view_pager.xml" value="0.20521590423257802" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/fragment_view_pager2.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/layout_screen.xml" value="0.20521590423257802" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/row_item.xml" value="0.2" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/rv_item.xml" value="0.20521590423257802" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/single_row_design.xml" value="0.2" />

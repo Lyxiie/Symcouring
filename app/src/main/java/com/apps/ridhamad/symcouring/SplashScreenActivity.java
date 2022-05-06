@@ -1,5 +1,4 @@
 package com.apps.ridhamad.symcouring;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -20,7 +19,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).hide();
 
         new Handler().postDelayed(() -> {
-            Intent intent = new Intent(this, MainActivity.class);
+            Intent intent = new Intent(this, IntroActivity.class);
             startActivity(intent);
             finish();
         }, 2000);
