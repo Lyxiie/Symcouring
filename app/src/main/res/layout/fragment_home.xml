@@ -54,6 +54,7 @@
             android:layout_marginTop="@dimen/dimen10"
             android:fontFamily="@font/lobster_regular"
             android:gravity="center"
+            android:textColor="#323232"
             android:padding="@dimen/dimen17"
             android:text="@string/description_home"
             android:textSize="@dimen/font17"

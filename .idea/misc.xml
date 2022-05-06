@@ -7,6 +7,8 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_layout.xml" value="0.152" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_layout_gallery.xml" value="0.2345" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_layout_slider.xml" value="0.197" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_layout_white.xml" value="0.2435" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_left_bottom.xml" value="0.2435" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_round_left.xml" value="0.2235" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_round_right.xml" value="0.2555" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/drawable/bg_slider.xml" value="0.2235" />
@@ -39,6 +41,7 @@
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/fragment_thrid_screen.xml" value="0.1936725096194955" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/fragment_view_pager.xml" value="0.20521590423257802" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/fragment_view_pager2.xml" value="0.20521590423257802" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/row_item.xml" value="0.2" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/rv_item.xml" value="0.20521590423257802" />
         <entry key="..\:/Users/Asus/AndroidStudioProjects/Symcouring/app/src/main/res/layout/single_row_design.xml" value="0.2" />
       </map>

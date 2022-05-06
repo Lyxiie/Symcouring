@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/ic_background"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context=".DailyFragment">
 
 
@@ -15,6 +15,7 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recview"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style_left_bottom">
+        <item name="android:background">@drawable/bg_left_bottom</item>
+        <item name="android:bottomLeftRadius">@dimen/dimen25</item>
+        <item name="android:topRightRadius">@dimen/dimen20</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    
+</resources>
