@@ -74,7 +74,7 @@
             app:civ_shadow_radius="10dp"
             android:layout_marginStart="@dimen/dimen40"
             android:translationZ="2dp"
-
+            android:src="@drawable/foto_profil"
             app:layout_constraintTop_toTopOf="@+id/page_1"
             app:layout_constraintBottom_toBottomOf="@id/page_1"
             app:layout_constraintStart_toStartOf="parent" />

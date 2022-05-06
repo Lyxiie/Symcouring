@@ -15,11 +15,18 @@
         android:theme="@style/Theme.Symcouring">
         <activity
             android:name=".MainActivity"
-            android:exported="false" />
-        <activity android:name=".IntroActivity"/>
+            android:exported="false"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".IntroActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".FullScreenActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
@@ -38,10 +45,14 @@
         <activity
             android:name=".MapsActivity"
             android:exported="false"
-            android:label="@string/title_activity_maps" />
+            android:label="@string/title_activity_maps"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".SplashScreenActivity"
-            android:exported="true">
+            android:exported="true"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
