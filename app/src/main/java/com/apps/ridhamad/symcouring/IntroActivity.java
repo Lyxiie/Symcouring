@@ -76,7 +76,7 @@ public class IntroActivity extends AppCompatActivity {
 
         final List<ScreenItem> mList = new ArrayList<>();
         mList.add(new ScreenItem("Selamat Datang","Aplikasi ini di buat untuk lebih mengenal diri sendiri dan orang disekitarmu",R.drawable.img1));
-        mList.add(new ScreenItem("Mengenal Lebih","Mencatat dan mendokumentasikan kegiatan sehari sehari-hari untukmu",R.drawable.img2));
+        mList.add(new ScreenItem("Mengenal Lebih","Mencatat dan mendokumentasikan kegiatan sehari-hari untukmu",R.drawable.img2));
         mList.add(new ScreenItem("Tertarik?","Lebih mengenal diri sendiri mulai sekarang",R.drawable.img3));
 
         // setup viewpager

@@ -28,7 +28,7 @@ public class myadapter extends RecyclerView.Adapter<myadapter.myviewholder> {
     @Override
     public myviewholder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.single_row_design, parent, false);
-       return  new myviewholder(view);
+       return new myviewholder(view);
     }
 
     @Override
@@ -44,7 +44,7 @@ public class myadapter extends RecyclerView.Adapter<myadapter.myviewholder> {
         return dataholder.size();
     }
 
-    class myviewholder extends RecyclerView.ViewHolder {
+    static class myviewholder extends RecyclerView.ViewHolder {
         ImageView img;
         TextView header, desc, date;
 

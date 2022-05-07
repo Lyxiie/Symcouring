@@ -77,10 +77,11 @@ public class HomeFragment extends Fragment {
         ImageSlider imageSlider = (ImageSlider) view.findViewById(R.id.slider);
         List<SlideModel> slideModels = new ArrayList<>();
 
-        slideModels.add(new SlideModel(R.drawable.img_slider_1,"COFFEE", ScaleTypes.CENTER_CROP));
-        slideModels.add(new SlideModel(R.drawable.img_slider_2,"GAME", ScaleTypes.CENTER_CROP));
-        slideModels.add(new SlideModel(R.drawable.img_slider_3,"WRITING", ScaleTypes.CENTER_CROP));
-        slideModels.add(new SlideModel(R.drawable.img_slider_4,"PHOTOGRAPH", ScaleTypes.CENTER_CROP));
+        slideModels.add(new SlideModel(R.drawable.img_slider_2,"Hobby", ScaleTypes.CENTER_CROP));
+        slideModels.add(new SlideModel(R.drawable.slide_makes,"Makes", ScaleTypes.CENTER_CROP));
+        slideModels.add(new SlideModel(R.drawable.slide_mikes,"Mikes", ScaleTypes.CENTER_CROP));
+        slideModels.add(new SlideModel(R.drawable.slide_interest,"Interest", ScaleTypes.CENTER_CROP));
+        slideModels.add(new SlideModel(R.drawable.slider_cita,"Cita-cita", ScaleTypes.CENTER_CROP));
 
         imageSlider.setImageList(slideModels);
         return view;
