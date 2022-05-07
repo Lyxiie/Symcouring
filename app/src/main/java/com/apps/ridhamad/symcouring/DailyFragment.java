@@ -17,6 +17,12 @@ import java.util.ArrayList;
  * create an instance of this fragment.
  *
  */
+
+//Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022
+//Nim : 10119251
+//Nama : Muhamad Ridwan
+//Kelas :IF6
+
 public class DailyFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match

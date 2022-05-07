@@ -7,6 +7,11 @@ import android.os.Handler;
 
 import java.util.Objects;
 
+//Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022
+//        Nim : 10119251
+//        Nama : Muhamad Ridwan
+//        Kelas :IF6
+
 public class SplashScreenActivity extends AppCompatActivity {
 
 

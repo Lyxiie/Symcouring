@@ -1,5 +1,10 @@
 package com.apps.ridhamad.symcouring;
 
+//Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022
+//        Nim : 10119251
+//        Nama : Muhamad Ridwan
+//        Kelas :IF6
+
 public class ScreenItem {
 
     String Title,Description;

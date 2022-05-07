@@ -13,6 +13,12 @@ import android.view.ViewGroup;
  * Use the {@link MusicFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
+
+//Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022
+//        Nim : 10119251
+//        Nama : Muhamad Ridwan
+//        Kelas :IF6
+
 public class MusicFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
@@ -46,6 +52,10 @@ public class MusicFragment extends Fragment {
         return fragment;
     }
 
+//Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022
+//        Nim : 10119251
+//        Nama : Muhamad Ridwan
+//        Kelas :IF6
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

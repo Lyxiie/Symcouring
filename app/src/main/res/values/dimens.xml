@@ -1,4 +1,5 @@
 <resources>
+
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="widthScreen">720px</dimen>
 
@@ -106,3 +107,8 @@
     <dimen name="font8">8sp</dimen>
     <dimen name="font9">0sp</dimen>
 </resources>
+
+    <!--Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022-->
+    <!--Nim : 10119251-->
+    <!--Nama : Muhamad Ridwan-->
+    <!--Kelas :IF6-->

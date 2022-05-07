@@ -12,6 +12,11 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.apps.ridhamad.symcouring.databinding.ActivityMapsBinding;
 
+//Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022
+//        Nim : 10119251
+//        Nama : Muhamad Ridwan
+//        Kelas :IF6
+
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;

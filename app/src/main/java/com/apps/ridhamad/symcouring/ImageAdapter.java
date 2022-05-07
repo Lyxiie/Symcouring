@@ -8,6 +8,11 @@ import android.widget.GridLayout;
 import android.widget.GridView;
 import android.widget.ImageView;
 
+//Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022
+//        Nim : 10119251
+//        Nama : Muhamad Ridwan
+//        Kelas :IF6
+
 public class ImageAdapter extends BaseAdapter {
 
     private Context mContext;

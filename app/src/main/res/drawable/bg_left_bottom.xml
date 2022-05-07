@@ -4,3 +4,8 @@
     <solid android:color="@color/white" />
     <corners android:bottomLeftRadius="@dimen/dimen25" android:topRightRadius="@dimen/dimen20"/>
 </shape>
+
+    <!--    Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022-->
+    <!--    Nim : 10119251-->
+    <!--    Nama : Muhamad Ridwan-->
+    <!--    Kelas :IF6-->

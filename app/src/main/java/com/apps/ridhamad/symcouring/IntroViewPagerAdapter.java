@@ -13,6 +13,12 @@ import androidx.viewpager.widget.PagerAdapter;
 
 import java.util.List;
 
+//Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022
+//        Nim : 10119251
+//        Nama : Muhamad Ridwan
+//        Kelas :IF6
+
+
 public class IntroViewPagerAdapter extends PagerAdapter {
 
    Context mContext ;

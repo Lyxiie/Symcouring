@@ -20,6 +20,11 @@ import com.google.android.material.tabs.TabLayout;
 import java.util.ArrayList;
 import java.util.List;
 
+//Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022
+//        Nim : 10119251
+//        Nama : Muhamad Ridwan
+//        Kelas :IF6
+
 public class IntroActivity extends AppCompatActivity {
 
     private ViewPager screenPager;
@@ -113,7 +118,10 @@ public class IntroActivity extends AppCompatActivity {
         });
 
         // tablayout add change listener
-
+        //Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022
+        //        Nim : 10119251
+        //        Nama : Muhamad Ridwan
+        //        Kelas :IF6
 
         tabIndicator.addOnTabSelectedListener(new TabLayout.BaseOnTabSelectedListener() {
             @Override

@@ -16,6 +16,10 @@ import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 
+//Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022
+//Nim : 10119251
+//Nama : Muhamad Ridwan
+//Kelas :IF6
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link DailyActivityFragment#newInstance} factory method to

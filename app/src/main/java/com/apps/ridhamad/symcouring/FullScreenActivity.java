@@ -6,6 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
+//Tanggal Pengerjaan : 15 April 2022 - 8 Mei 2022
+//        Nim : 10119251
+//        Nama : Muhamad Ridwan
+//        Kelas :IF6
+
 public class FullScreenActivity extends AppCompatActivity {
 
     ImageView imageView;
