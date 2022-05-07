@@ -16,7 +16,7 @@
     <!-- TODO: Update blank fragment layout -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
 >
 
 <!--    Page 1-->
@@ -36,7 +36,7 @@
             android:id="@+id/text_for_line_profile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Profile"
+            android:text="@string/profile"
             android:shadowColor="@color/black"
             android:shadowDx="2"
             android:shadowDy="2"
@@ -69,7 +69,7 @@
        android:layout_marginRight="@dimen/dimen20"
        android:layout_marginTop="@dimen/dimen20"
        app:layout_constraintStart_toEndOf="parent"
-       app:layout_constraintTop_toBottomOf="@id/line_prof_1"/>
+       app:layout_constraintTop_toBottomOf="@id/line_prof_1" />
 
         <com.mikhaellopez.circularimageview.CircularImageView
             android:id="@+id/photo_profile"
@@ -92,7 +92,7 @@
             android:layout_marginTop="@dimen/dimen20"
             android:layout_marginLeft="@dimen/dimen50"
             android:fontFamily="@font/comfortaa_regular"
-            android:text="Muhamad Ridwan"
+            android:text="@string/ridhamad"
             android:textColor="@color/black"
             android:textSize="@dimen/font18"
             app:layout_constraintLeft_toRightOf="@+id/photo_profile"
@@ -110,7 +110,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name"
+            android:text="@string/name"
             android:textSize="@dimen/font12"
             android:layout_marginRight="@dimen/dimen10"
             android:fontFamily="@font/comfortaa_regular"
@@ -127,7 +127,7 @@
             android:layout_marginTop="@dimen/dimen10"
             android:layout_marginLeft="@dimen/dimen100"
             android:fontFamily="@font/comfortaa_regular"
-            android:text="089691301049"
+            android:text="@string/notelp"
             android:textColor="@color/black"
             android:textSize="@dimen/font18"
             app:layout_constraintLeft_toRightOf="@+id/photo_profile"
@@ -147,7 +147,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Phone"
+            android:text="@string/phone"
             android:textSize="@dimen/font12"
             android:layout_marginRight="@dimen/dimen10"
             android:fontFamily="@font/comfortaa_regular"
@@ -163,7 +163,7 @@
             android:layout_marginTop="@dimen/dimen20"
             android:layout_marginLeft="@dimen/dimen50"
             android:fontFamily="@font/comfortaa_regular"
-            android:text="gllazie.mr@gmail.com"
+            android:text="@string/emails"
             android:textColor="@color/black"
             android:textSize="@dimen/font14"
             app:layout_constraintLeft_toRightOf="@+id/photo_profile"
@@ -184,7 +184,7 @@
             android:id="@+id/email_bawah"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="E-mail"
+            android:text="@string/email"
             android:textSize="@dimen/font12"
             android:layout_marginRight="@dimen/dimen10"
             android:fontFamily="@font/comfortaa_regular"
@@ -210,7 +210,7 @@
             android:id="@+id/text_for_line_contact"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Contact"
+            android:text="@string/contact"
             android:shadowColor="@color/black"
             android:shadowDx="2"
             android:shadowDy="2"
@@ -321,7 +321,7 @@
             android:id="@+id/text_for_line_find"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Find Me"
+            android:text="@string/findme"
             android:fontFamily="@font/lobster_regular"
             android:textColor="#FFFFFF"
             android:shadowColor="@color/black"
@@ -396,7 +396,7 @@
             android:id="@+id/text_for_line_about"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="About App"
+            android:text="@string/aboutapp"
             android:shadowColor="@color/black"
             android:shadowDx="2"
             android:shadowDy="2"
